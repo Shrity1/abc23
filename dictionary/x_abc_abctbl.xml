@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="abctbl" max_length="40" name="x_abc_abctbl" type="collection"/>
+</database>
