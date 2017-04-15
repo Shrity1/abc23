@@ -3,6 +3,7 @@
     <element label="M2m Approvals Abctbls" max_length="40" name="x_abc_m2m_approvals_abctbls" type="collection">
         <element label="Abctbl" max_length="32" name="abctbl" reference="x_abc_abctbl" type="reference"/>
         <element label="Approval" max_length="32" name="approval" reference="sysapproval_approver" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="abctbl"/>
         </index>
